@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo The date is $(date)
+set $(date)
+echo The month is $2
+echo $1
+exit 0
+
